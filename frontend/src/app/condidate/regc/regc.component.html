@@ -1,0 +1,101 @@
+<body class="default-header dark-mode">
+    <!-- BACKGROUND-IMAGE -->
+    <div class="login-img">
+
+        <!-- GLOABAL LOADER -->
+        <div id="global-loader">
+            <img src="assets/images/svgs/loader.svg" class="loader-img" alt="Loader">
+        </div>
+
+        <div class="page">
+            <div class="">
+                <!-- CONTAINER OPEN -->
+                <div class="col col-login mx-auto">
+                    <div class="text-center">
+                        <img src="assets/images/brand/logo-2.png" class="header-brand-img" alt="">
+                    </div>
+                </div>
+                <div class="container-login100">
+                    <div class="wrap-login100 p-6">
+                        <form class="login100-form validate-form" #j="ngForm" (ngSubmit)="add(j)">
+                            <span class="login100-form-title">
+                                Registration
+                            </span>
+                            <div class="wrap-input100 validate-input"
+                                data-validate="Valid email is required: ex@abc.xyz">
+                                <input class="input100" type="text" name="name" placeholder="name" ngModel #u="ngModel">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="mdi mdi-account" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="wrap-input100 validate-input"
+                                data-validate="Valid email is required: ex@abc.xyz">
+                                <input class="input100" type="text" name="email" placeholder="Email" ngModel
+                                    #p="ngModel">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="zmdi zmdi-email" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="wrap-input100 validate-input" data-validate="Password is required">
+                                <input class="input100" type="password" name="password" placeholder="Password" ngModel
+                                    #s="ngModel">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="zmdi zmdi-lock" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <div class="wrap-input100 validate-input" data-validate="Password is required">
+                                <input class="input100" type="password" name="pass2" placeholder="Password" ngModel
+                                    #t="ngModel">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="zmdi zmdi-lock" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <label class="custom-control custom-checkbox mt-4">
+                                <input type="checkbox" class="custom-control-input">
+                                <span class="custom-control-label">Agree the <a href="terms.html">terms and
+                                        policy</a></span>
+                            </label>
+                            <div class="container-login100-form-btn">
+                                <button type="submit" class="btn btn-primary">Register</button>
+
+                            </div>
+                            <div class="text-center pt-3">
+                                <p class="text-white mb-0">Already have account?<a href="login.html"
+                                        class="text-primary ml-1">Sign In</a></p>
+                            </div>
+                            <div class=" flex-c-m text-center mt-3">
+                                <p>Or</p>
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a class="btn  btn-social btn-block"><i
+                                                    class="fa fa-google-plus text-google-plus"></i> Sign up with
+                                                Google</a></li>
+                                        <li><a class="btn  btn-social btn-block mt-2"><i
+                                                    class="fa fa-facebook text-facebook"></i> Sign in with Facebook</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class=" a alert alert-danger" *ngIf='v'>
+                    Fill in the required fields
+                </div>
+                <div class=" d alert alert-danger" *ngIf='z'>
+                    password incorecct
+                </div>
+                <div class=" b alert alert-danger" *ngIf='l'>
+                    email invalide
+                </div>
+                <!-- CONTAINER CLOSED -->
+            </div>
+        </div>
+    </div>
+
+
+</body>

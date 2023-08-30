@@ -1,0 +1,640 @@
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!--Preloader area Start-->
+    <div id="preloader">
+        <div id="status" class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!--Preloader area End-->
+
+    <!--Header area start here-->
+    <header id="sticky">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-4">
+                    <div class="logo-area">
+                        <a href="index-2.html"><img src="assets/images/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-8">
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="http://localhost:4200/">Home</a></li>
+                                <li>
+                                    <a class="active" href="http://localhost:4200/job">Jobs</a>
+
+                                </li>
+                                <li>
+                                    <a href="http://localhost:4200/servise">Servise</a>
+
+                                </li>
+
+
+
+                                <li><a href="http://localhost:4200/contact">Contact Us</a></li>
+
+                                <li class="users"><a href="http://localhost:4200/log"><button type="button"
+                                            class="log_in" data-toggle="modal" data-target="#exampleModalCenter"><i
+                                                class="flaticon-login"></i>Login</button></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Responsive Menu area-->
+        <div class="mobilemenu">
+            <div class="mobile-menu  hidden-md-up">
+                <nav>
+                    <ul>
+                        <li><a href="index-2.html">Home</a></li>
+                        <li>
+                            <a href="javascript:void(0)">Jobs</a>
+                            <ul>
+                                <li><a href="jobs.html">Jobs</a></li>
+                                <li><a href="jobs-details.html">Jobs Details</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Recruiters</a>
+                            <ul>
+                                <li><a href="recruiters.html">Recruiters</a></li>
+                                <li><a href="recruiters-details.html">Recruiters Details</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Candidates</a>
+                            <ul>
+                                <li><a href="candidates.html">Candidates</a></li>
+                                <li><a href="candidates-details.html">Candidates Details</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">Blog</a>
+                            <ul>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--Responsive Menu area End-->
+    </header>
+    <!--Header area end here-->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm pd-0">
+                                <ul class="navtab">
+                                    <li>
+                                        <a class="prev-step active" href="javascript:void(0)">LOGIN</a>
+                                    </li>
+                                    <li>
+                                        <a class="next-step" href="javascript:void(0)">Register</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="login">
+                                        <div class="logins">
+                                            <form>
+                                                <fieldset>
+                                                    <label>Username or Email Address</label>
+                                                    <input type="text" placeholder="Enter Username or Email Address">
+                                                    <span><i class="fa fa-user"></i></span>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>Password</label>
+                                                    <input type="text" placeholder="Enter Password">
+                                                    <span><i class="flaticon-lock"></i></span>
+                                                </fieldset>
+                                                <button class="btn1">LOGIN</button>
+                                                <div class="agree"><input type="checkbox" class="checkbox-custom">
+                                                    <p>Remember Password</p> <a href="#">Forgot Password?</a>
+                                                </div>
+                                            </form>
+                                            <div class="login_ac">
+                                                <h4>or login with</h4>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <a href="#"><span><i
+                                                                    class="fa fa-facebook"></i></span>FACEBOOK</a>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <a href="#"><span><i
+                                                                    class="fa fa-google-plus"></i></span>GOOGLE</a>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <a href="#"><span><i
+                                                                    class="fa fa-twitter"></i></span>TWITTER</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="havean">
+                                                <p>You don't have an account? <a class="p-step"
+                                                        href="javascript:void(0)">Register Now</a> </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="register" class="lighting">
+                                        <div class="registers">
+                                            <form>
+                                                <fieldset>
+                                                    <label>Register As:</label>
+                                                    <select>
+                                                        <option>Select</option>
+                                                        <option>Advisers</option>
+                                                        <option>Member</option>
+                                                    </select>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>Username or Email Address</label>
+                                                    <input type="text" placeholder="Enter Username or Email Address">
+                                                    <span><i class="fa fa-user"></i></span>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>Password</label>
+                                                    <input type="text" placeholder="Enter Password">
+                                                    <span><i class="flaticon-lock"></i></span>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>Confirm Password</label>
+                                                    <input type="text" placeholder="Confirm Password">
+                                                    <span><i class="flaticon-lock"></i></span>
+                                                </fieldset>
+                                                <button class="btn1">REGISTER</button>
+                                                <div class="agree"><input type="checkbox" class="checkbox-custom">
+                                                    <p>I agree with the <a href="#">Terms of Use</a></p>
+                                                </div>
+                                            </form>
+                                            <div class="login_ac">
+                                                <h4>or login with</h4>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <a href="#"><span><i
+                                                                    class="fa fa-facebook"></i></span>FACEBOOK</a>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <a href="#"><span><i
+                                                                    class="fa fa-google-plus"></i></span>GOOGLE</a>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <a href="#"><span><i
+                                                                    class="fa fa-twitter"></i></span>TWITTER</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="havean">
+                                                <p>Already have an account? <a class="n-step"
+                                                        href="javascript:void(0)">Login</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End-->
+    <!--Job searcing area start here-->
+    <section class="breadcumb-title bg-img jarallax af">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="breadcumbs">
+                        <h2>{{k.title}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Job searcing area End here-->
+    <!--Breadcumb area Start here-->
+    <div class="breadcumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="breadcumbs">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            <li><a href="#">Marketing Manager </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Breadcumb area End here-->
+    <!--Job details area start here-->
+    <section class="job-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="details-con">
+                        <div class="items">
+                            <div class="right-con">
+                                <figure><img src="assets/images/icons/12.png" alt=""></figure>
+
+                            </div>
+                            <div class="content">
+                                <h3><a href="#">{{k.title}}</a><button><i class="fa fa-heart"></i></button></h3>
+                                <p>April 3, 2018</p>
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <h3>Job Description</h3>
+                            <p>{{k.des}}.</p>
+                            <h3>What You Will Do</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar placerat mattis.
+                                Fusce et elit ornare, finibus sapien at, porttitor eros. Pellentesque eget ornare lacus.
+                                Sed pharetra dolor suscipit ultricies porta. Pellentesque posuere ante leo, id tincidunt
+                                tortor scelerisque et. Mauris placerat imperdiet metus quis luctus. Curabitur dictum
+                                mattis ligula ultrices dapibus. Sed vitae neque vitae risus viverra feugiat. Cras
+                                euismod ultricies mi eu blandit. Nam id maximus arcu. Sed molestie porta tellus, quis
+                                vehicula nunc. Nullam pharetra risus in lorem iaculis finibus a id magna. Donec eu eros
+                                eu sapien faucibus porttitor.</p>
+                            <ul>
+                                <li><i class="fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.</li>
+                                <li><i class="fa fa-angle-right"></i>Pellentesque augue dignissim venenatis, turpis
+                                    vestibulum.</li>
+                                <li><i class="fa fa-angle-right"></i>Mus arcu euismod ad hac dui, vivamus platea netus.
+                                </li>
+                                <li><i class="fa fa-angle-right"></i>Neque per nisl posuere sagittis, id platea dui.
+                                </li>
+                                <li><i class="fa fa-angle-right"></i>A enim magnis dapibus, nullam odio porta, nisl
+                                    class.</li>
+                                <li><i class="fa fa-angle-right"></i>Turpis leo pellentesque per nam, nostra fringilla
+                                    id.</li>
+                            </ul>
+                            <h3>What we can offer you</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar placerat mattis.
+                                Fusce et elit ornare, finibus sapien at, porttitor eros. Pellentesque eget ornare lacus.
+                                Sed pharetra dolor suscipit ultricies porta. Pellentesque posuere ante leo, id tincidunt
+                                tortor scelerisque et. Mauris placerat imperdiet metus quis luctus. Curabitur dictum
+                                mattis ligula ultrices dapibus. Sed vitae neque vitae risus viverra feugiat. Cras
+                                euismod ultricies mi eu blandit. Nam id maximus arcu. Sed molestie porta tellus, quis
+                                vehicula nunc. Nullam pharetra risus in lorem iaculis finibus a id magna. Donec eu eros
+                                eu sapien faucibus porttitor.</p>
+                            <ul>
+                                <li><i class="fa fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit.</li>
+                                <li><i class="fa fa-angle-right"></i>Pellentesque augue dignissim venenatis, turpis
+                                    vestibulum.</li>
+                                <li><i class="fa fa-angle-right"></i>Mus arcu euismod ad hac dui, vivamus platea netus.
+                                </li>
+                                <li><i class="fa fa-angle-right"></i>Neque per nisl posuere sagittis, id platea dui.
+                                </li>
+                                <li><i class="fa fa-angle-right"></i>A enim magnis dapibus, nullam odio porta, nisl
+                                    class.</li>
+                                <li><i class="fa fa-angle-right"></i>Turpis leo pellentesque per nam, nostra fringilla
+                                    id.</li>
+                            </ul>
+                            <h3>Required skills</h3>
+                            <ul class="tags">
+                                <li><a href="#">Developer</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Medical</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Web Developer</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Medical</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Web Developer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="sideber2">
+                        <div class="widghet frd">
+                            <div class="featureds">
+                                <div class="list-arc">
+                                    <span class="ico"><i class="flaticon-calendar"></i></span>
+                                    <div class="con">
+                                        <h4>Dated Posted:</h4>
+                                        <p>{{k.date}}</p>
+                                    </div>
+                                </div>
+                                <div class="list-arc">
+                                    <span class="ico"><i class="flaticon-maps-and-flags"></i></span>
+                                    <div class="con">
+                                        <h4>Location: </h4>
+                                        <p>{{k.location}}</p>
+                                    </div>
+                                </div>
+                                <div class="list-arc">
+                                    <span class="ico"><i class="flaticon-money-bag-with-dollar-symbol"></i></span>
+                                    <div class="con">
+                                        <h4>Salary: </h4>
+                                        <p>{{k.salaire}}</p>
+                                    </div>
+                                </div>
+                                <div class="list-arc">
+                                    <span class="ico"><i class="flaticon-four-black-squares"></i></span>
+                                    <div class="con">
+                                        <h4>Category:</h4>
+                                        <p>{{k.categ}}</p>
+                                    </div>
+                                </div>
+                                <div class="list-arc">
+                                    <span class="ico"><i class="flaticon-medal"></i></span>
+                                    <div class="con">
+                                        <h4>Experience: </h4>
+                                        <p>1 - {{k.exp}} Yrs Exp</p>
+                                    </div>
+                                </div>
+                                <a href="http://localhost:4200/log"><button type="submit" class="btn1">Apply
+                                        Now</button></a>
+                            </div>
+                        </div>
+                        <div class="widghet clearw">
+                            <h3>Job Location</h3>
+                            <div class="maps">
+                                <div id="map" class="map-full">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004080.414077152!2d-104.65693512785852!3d37.27559283318413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1530855407925"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Job details area End here-->
+    <!--Related Jobs area start here-->
+    <section class="related-jobs section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="jobs-con">
+                        <h3>Other jobs you may like</h3>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="items">
+                                    <div class="right-con">
+                                        <figure><img src="assets/images/icons/12.png" alt=""></figure>
+                                        <span class="color1">Part Time</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3><a href="#">Marketing Manager</a><button><i
+                                                    class="fa fa-heart"></i></button></h3>
+                                        <p>April 3, 2018</p>
+                                        <ul>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-briefcase-frontal-view"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-money-bag-with-dollar-symbol"></i></span><span
+                                                    class="con">$ 2500 - $ 3000</span></li>
+                                            <li><span class="ico"><i class="flaticon-maps-and-flags"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="items">
+                                    <div class="right-con">
+                                        <figure><img src="assets/images/icons/13.png" alt=""></figure>
+                                        <span class="color2">Full Time</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3><a href="#">Brand Sales Manager</a><button><i
+                                                    class="fa fa-heart"></i></button></h3>
+                                        <p>April 3, 2018</p>
+                                        <ul>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-briefcase-frontal-view"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-money-bag-with-dollar-symbol"></i></span><span
+                                                    class="con">$ 2500 - $ 3000</span></li>
+                                            <li><span class="ico"><i class="flaticon-maps-and-flags"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="items">
+                                    <div class="right-con">
+                                        <figure><img src="assets/images/icons/14.png" alt=""></figure>
+                                        <span class="color3">Contract</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3><a href="#">Web Developer – PHP</a><button><i
+                                                    class="fa fa-heart"></i></button></h3>
+                                        <p>April 3, 2018</p>
+                                        <ul>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-briefcase-frontal-view"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-money-bag-with-dollar-symbol"></i></span><span
+                                                    class="con">$ 2500 - $ 3000</span></li>
+                                            <li><span class="ico"><i class="flaticon-maps-and-flags"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="items">
+                                    <div class="right-con">
+                                        <figure><img src="assets/images/icons/15.png" alt=""></figure>
+                                        <span class="color4">Temporary</span>
+                                    </div>
+                                    <div class="content">
+                                        <h3><a href="#">Cashier For Bank…</a><button><i
+                                                    class="fa fa-heart"></i></button></h3>
+                                        <p>April 3, 2018</p>
+                                        <ul>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-briefcase-frontal-view"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                            <li><span class="ico"><i
+                                                        class="flaticon-money-bag-with-dollar-symbol"></i></span><span
+                                                    class="con">$ 2500 - $ 3000</span></li>
+                                            <li><span class="ico"><i class="flaticon-maps-and-flags"></i></span><span
+                                                    class="con">Intel Technologies</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Related Jobs area End here-->
+    <!--Subscribe area start here-->
+    <section class="subscribe-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="row mr-0">
+                        <div class="col-md-12 col-xl-6 col-sm-12">
+                            <div class="sub_con">
+                                <span><img src="assets/images/icons/3.png" alt="" /></span>
+                                <div class="con">
+                                    <h3>Get Jobs Notifications</h3>
+                                    <p>Free Subscribe Our Newsletter Now!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-6 col-sm-12">
+                            <div class="sub_form">
+                                <form>
+                                    <input type="email" placeholder="Type Your Email Address">
+                                    <input class="btn1" type="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Subscribe area End here-->
+    <!--Footer area start here-->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="foo-about">
+                            <h3>Who we are</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt enim lectus, in
+                                rhoncus mauris maximus id. Donec at porttitor arcu. Fusce a nunc facilisis, lacinia diam
+                                non, rhoncus turpis. Sed viverra</p>
+                            <a href="#" class="link">READ MORE</a>
+                            <ul class="social_link">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foo_link">
+                                    <h3>For Candidates</h3>
+                                    <ul>
+                                        <li><a href="#">All Jobs</a></li>
+                                        <li><a href="#">All Categories</a></li>
+                                        <li><a href="#">Companies</a></li>
+                                        <li><a href="#">My Account</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foo_link">
+                                    <h3>For Employers</h3>
+                                    <ul>
+                                        <li><a href="#">All Resums</a></li>
+                                        <li><a href="#">All Categories</a></li>
+                                        <li><a href="#">All Jobs</a></li>
+                                        <li><a href="#">My Account</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="foo_link mr-b0">
+                                    <h3>Information</h3>
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="copyright">
+                            <p>© Copyright - Praca Cerja. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer area end here-->
+
+    <!-- All JavaScript Here -->
+
+    <!-- jQuery latest version -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <!-- tether JavaScript -->
+    <script src="assets/js/tether.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Owl.carousel JavaScript -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Bxslider JavaScript -->
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <!-- isotope JavaScript -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Magnific Popup JavaScript -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- meanmenu JavaScript -->
+    <script src="assets/js/jquery.meanmenu.js"></script>
+    <!-- jarallax JavaScript -->
+    <script src="assets/js/jarallax.min.js"></script>
+    <!-- jQuery-ui JavaScript -->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!-- Nice-select JavaScript -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- Progressbar Animation JavaScript -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- slick JavaScript -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- wow JavaScript -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Plugins JavaScript -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- Init JavaScript -->
+    <script src="assets/js/main.js"></script>
+
+</body>

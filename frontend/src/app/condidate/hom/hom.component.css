@@ -1,0 +1,7 @@
+.featured-jobs .jobs .jobs_items {
+    transform: rotate(360deg) !important;
+}
+
+.company_register .companies .companies_items {
+    transform: rotate(360deg) !important;
+}
